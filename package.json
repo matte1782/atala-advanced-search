@@ -1,0 +1,38 @@
+{
+  "name": "atala-advanced-search",
+  "version": "1.0.0",
+  "description": "Award-winning search page with advanced visual effects for Atala S.p.A",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "webflow",
+    "search",
+    "particle-effects",
+    "webgl",
+    "canvas2d",
+    "verlet-physics"
+  ],
+  "author": "Atala S.p.A",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/three": "^0.160.0",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "eslint": "^8.56.0",
+    "terser": "^5.27.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}
